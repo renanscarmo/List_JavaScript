@@ -11,17 +11,18 @@
     <div class="header">
         <h2>Lista</h2>
         <input type="text" id="input" placeholder="Digite uma fruta">
-        <span onclick="newElement()" class="addBtn">Adicionar</span>
+        <!-- <span onclick="adicionar()" class="addBtn">Adicionar</span> -->
+        <input type="submit" onclick="adicionar()" value="Adicionar" class="addBtn" />
         
     </div>
 
-    <ul class="list">
-        <li>Banana</li>
-        <li class="checked">Maça</li>
-        <li>Uva</li>
-        <li>Laranja</li>
-        <li>Mexirica</li>
-        <li>Pêssego</li>
+    <ul id="list" class="list">
+        <li>Banana <input type="submit" value="X" class="del" onclick="deletar(this)"> </li>
+        <li class="checked">Maça<input type="submit" value="X" class="del" onclick="deletar(this)"> </li>
+        <li>Uva<input type="submit" value="X" class="del" onclick="deletar(this)"> </li>
+        <li>Laranja<input type="submit" value="X" class="del" onclick="deletar(this)"> </li>
+        <li>Mexirica<input type="submit" value="X" class="del" onclick="deletar(this)"> </li>
+        <li>Pêssego<input type="submit" value="X" class="del" onclick="deletar(this)"> </li>
 
     </ul>
     <script src="./script.js"></script>

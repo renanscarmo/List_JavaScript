@@ -16,17 +16,19 @@
 }
 #input {
     margin-top: 8px;
-    }
+}
 
 .addBtn {
     font-size: 1em;
-    padding: 5px 15px 5px 15px;
+    padding: 7px 70px;
     background-color: rgba(169, 169, 169, 0.582);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
-  
+    
+
     font-weight: 500;
+    border: none;
 }
-.header input {
+.header #input {
     
     padding: 8px 259px 8px 259px;
 }
@@ -39,7 +41,7 @@
 }
 .list li {
    
-    padding: 10px 5000px 10px 25px;
+    padding: 10px 100px 10px 25px;
 
 }
 .list li:hover {
@@ -63,4 +65,18 @@ ul li.checked::before{ /*Check codigo de fazer um simbolo estilo um check*/
     height: 15px;
     width: 7px;
     
+}
+.del {
+   width: 23px;
+    border-radius: 50%;
+    padding: 3px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.555);
+    border: none;
+   
+    margin-left: 100%;
+    cursor: pointer;
+}
+.del:hover {
+    background-color: red;
 }
